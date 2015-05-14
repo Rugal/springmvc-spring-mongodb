@@ -28,16 +28,6 @@
             <artifactId>mongo-java-driver</artifactId>
             <version>3.0.1</version>
         </dependency>
-        <!--        <dependency>
-            <groupId>org.mongodb.morphia</groupId>
-            <artifactId>morphia</artifactId>
-            <version>1.0.0-rc0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.thoughtworks.proxytoys</groupId>
-            <artifactId>proxytoys</artifactId>
-            <version>1.0</version>
-        </dependency>-->
         <!-- MongoDB stop -->
         <!-- Spring Data MongoDB start -->
         <dependency>
@@ -210,7 +200,7 @@
                     <configuration>
                         <url>http://localhost:8080/manager/text</url>
                         <server>tomcat</server>
-                        <path>/food</path>
+                        <path>/path</path>
                     </configuration>
                 </plugin>
                 <plugin>
@@ -240,20 +230,6 @@
                     </configuration>
                     <!-- For any extra dependencies needed when running embedded Tomcat (not WAR dependencies) add them below -->
                     <dependencies/>
-                </plugin>
-                <plugin>
-                    <groupId>org.mortbay.jetty</groupId>
-                    <artifactId>maven-jetty-plugin</artifactId>
-                    <version>6.1.10</version>
-                    <configuration>
-                        <scanIntervalSeconds>10</scanIntervalSeconds>
-                        <connectors>
-                            <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                                <port>8080</port>
-                                <maxIdleTime>60000</maxIdleTime>
-                            </connector>
-                        </connectors>
-                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
