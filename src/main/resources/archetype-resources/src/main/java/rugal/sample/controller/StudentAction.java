@@ -1,5 +1,6 @@
 package rugal.sample.controller;
 
+import ml.rugal.sshcommon.springmvc.util.Message;
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import rugal.sample.common.CommonMessageContent;
-import rugal.sample.common.Message;
 import rugal.sample.core.entity.Student;
 import rugal.sample.core.repository.StudentRepository;
 

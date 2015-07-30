@@ -50,7 +50,7 @@ public class StudentRepositoryTest extends JUnitSpringTestBase
         Student result = new Student();
         result.setName("Bernstein");
         result.setAge(26);
-        result.setClassRoom(classrepository.findOne(new ObjectId("555418d50032f55ffbf8ca78")));
+        result.setClassRoom(classrepository.findOne(new ObjectId("55b9a4cf5aa5f926d81d41cd")));
         repository.save(result);
     }
 

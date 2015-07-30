@@ -29,7 +29,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 {
     "rugal.sample.controller"
 })
-public class WebApplicationContext extends WebMvcConfigurerAdapter
+public class SpringMVCApplicationContext extends WebMvcConfigurerAdapter
 {
 
     @Override
