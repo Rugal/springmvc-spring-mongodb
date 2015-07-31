@@ -4,7 +4,7 @@ springmvc-spring-mongodb
 
 This is my second archetype in maven.  
 
-A great and exquisit archetype, please refer to real archetype in `src/main/resources/archetype-resources` for furture inquirement.
+For configuration, usage, version log please refer to official [page]({%post_url 2015/2015-07-30-archetype-for-springmvc-spring-mongodb %}).
 
     mvn archetype:generate  -DarchetypeGroupId=ml.rugal.archetype       \
                 -DarchetypeArtifactId=springmvc-spring-mongodb  \
