@@ -1,12 +1,17 @@
-#SSM skeleton
+springmvc-spring-mongodb
+==========================
 
-An excellent skeleton code for JavaEE application based on:  
+Now you got an excellent skeleton for JavaEE application in hand. This skeleton based on:  
 
 1. Springmvc
 2. Spring
 3. Spring-data-mongo
 4. MongoDB
-5. Spring-test
 
 
-Please manually modify the `config.applicationContext` as well as the `config.WebApplicationContext` in resources folder tp ensure the package will scan your corresponding package.  
+##Important components used
+1. JSON mapper: `GSON`  
+2. Test framework: Spring-test
+
+
+For configuration, usage, version log please refer to official [page](http://rugal.ga/development/2015/07/30/archetype-for-springmvc-spring-mongodb/).
