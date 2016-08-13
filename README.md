@@ -12,3 +12,13 @@ This is my second archetype in maven.
                 -DgroupId=your.group.id         \
                 -DartifactId=your.artifact.id   \
                 -Dversion=your.version
+
+
+## Components
+
+1. Springmvc
+2. Spring
+3. Spring-data-mongo
+4. MongoDB
+5. Gson
+6. Spring-test
